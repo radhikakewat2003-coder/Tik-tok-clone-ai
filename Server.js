@@ -199,5 +199,5 @@ app.post("/chatbot", async (req, res) => {
 /* ================= START ================= */
 
 server.listen(5000, () => {
-  console.log("Server running on http://localhost:5000");
+  console.log("Server running on port" + PORT);
 });
